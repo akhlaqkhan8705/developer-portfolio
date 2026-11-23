@@ -1,65 +1,333 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mohd Saad | Developer Portfolio</title>
+
 <style>
-body{font-family:Arial,sans-serif;line-height:1.7;max-width:860px;margin:auto;padding:24px;color:#2c2c2c}
-header{border-bottom:4px solid #1F4E79;padding-bottom:20px}
-h1{color:#1F4E79;margin:0}
-h2{color:#2E75B6;border-left:5px solid #2E75B6;padding-left:10px;margin-top:32px}
-.badge{display:inline-block;background:#1F4E79;color:#fff;padding:4px 12px;border-radius:14px;font-size:.85rem;margin:3px}
-.card{border:1px solid #ccc;border-radius:8px;padding:14px 18px;background:#f7fbff}
-table{width:100%;border-collapse:collapse}
-th{background:#1F4E79;color:#fff;padding:8px;text-align:left}
-td{padding:8px;border:1px solid #ddd}
-a{color:#2E75B6}
-footer{margin-top:40px;border-top:1px solid #ddd;padding-top:12px;text-align:center;color:#888;font-size:.85rem}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #2c2c2c;
+    line-height: 1.75;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 24px;
+    background: #ffffff;
+}
+
+header {
+    border-bottom: 4px solid #1F4E79;
+    padding-bottom: 22px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: #1F4E79;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #2E75B6;
+    font-size: 1.2rem;
+    margin: 32px 0 14px;
+    padding-left: 12px;
+    border-left: 5px solid #2E75B6;
+}
+
+h3 {
+    color: #1F4E79;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    background: #1F4E79;
+    color: white;
+    padding: 4px 13px;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    margin: 4px;
+}
+
+.card {
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 14px 0;
+    background: #f7faff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+}
+
+th {
+    background: #1F4E79;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) td {
+    background: #f0f5fb;
+}
+
+a {
+    color: #2E75B6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 45px;
+    padding: 20px 0;
+    border-top: 1px solid #d0d8e4;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    table {
+        font-size: 0.82rem;
+    }
+
+    td, th {
+        padding: 7px;
+    }
+}
 </style>
 </head>
+
 <body>
+
 <header>
-<h1>Mohd Saad</h1>
-<p>B.Tech CSE Student (1st Year) &bull; Section E &bull; K.R. Mangalam University, Gurugram</p>
-<span class="badge">Python</span><span class="badge">Linux</span><span class="badge">Git &amp; GitHub</span><span class="badge">Shell Scripting</span><span class="badge">Markdown</span>
+    <h1>Hi, I am Mohd Saad</h1>
+
+    <p>
+        BCA (AI &amp; DS) Student (1st Year) |
+        K.R. Mangalam University, Gurugram
+    </p>
+
+    <p>
+        <span class="badge">Python</span>
+        <span class="badge">Linux</span>
+        <span class="badge">Git</span>
+        <span class="badge">GitHub</span>
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">Bash</span>
+    </p>
 </header>
 
 <h2>About Me</h2>
-<p>I am a first-year B.Tech CSE student who is learning programming and development tools. I am building my base in Python, Linux and Git. My goal is to become a skilled software developer by learning step by step and building real projects.</p>
+
+<p>
+    I am a first-year BCA (AI &amp; DS) student at
+    K.R. Mangalam University, Gurugram.
+    I am interested in programming, Artificial Intelligence
+    and Data Science. I am currently learning Python,
+    Linux, Git, GitHub and web development.
+    My goal is to strengthen my programming fundamentals
+    and build practical technology projects.
+</p>
 
 <h2>Featured Projects</h2>
+
 <div class="card">
-<h3>CSE103 Lab &mdash; GitHub Collaboration &amp; API Interaction</h3>
-<p>Lab repository covering Git workflows, Linux shell scripting, Markdown documentation, REST API testing with curl and Postman, and debugging techniques.</p>
-<p><strong>Tech Stack:</strong> Python, Bash, Git, GitHub, curl</p>
-<a href="https://github.com/akhlaqkhan8705">View Repository on GitHub &rarr;</a>
+    <h3>CSE103 Lab - GitHub Collaboration &amp; API Interaction</h3>
+
+    <p>
+        A lab project focused on Git and GitHub workflows,
+        Linux commands, shell scripting, Markdown documentation
+        and REST API interaction.
+    </p>
+
+    <p>
+        <strong>Tech Stack:</strong>
+        Python, Bash, Git, GitHub, Linux, curl
+    </p>
+
+    <p>
+        <a href="https://github.com/Mohdshad7242066417/cse103-lab-LAB3"
+           target="_blank">
+            View CSE103 Lab Repository
+        </a>
+    </p>
 </div>
-<br>
+
 <div class="card">
-<h3>Developer Portfolio Index</h3>
-<p>A central index of my repositories, my 6-semester learning roadmap and coding platform progress tracker.</p>
-<p><strong>Tech Stack:</strong> Markdown, HTML, CSS, GitHub Pages</p>
-<a href="https://github.com/akhlaqkhan8705/developer-portfolio">View Repository on GitHub &rarr;</a>
+    <h3>Developer Portfolio</h3>
+
+    <p>
+        A central place to present my GitHub repositories,
+        technical skills, learning roadmap and coding progress.
+    </p>
+
+    <p>
+        <strong>Tech Stack:</strong>
+        HTML, CSS, Markdown, GitHub Pages
+    </p>
+
+    <p>
+        <a href="https://github.com/akhlaqkhan8705/developer-portfolio"
+           target="_blank">
+            View Portfolio Repository
+        </a>
+    </p>
 </div>
 
 <h2>Technical Skills</h2>
+
 <table>
-<tr><th>Category</th><th>Technologies</th></tr>
-<tr><td>Languages</td><td>Python (Beginner), Bash / Shell Scripting</td></tr>
-<tr><td>Tools</td><td>Git, GitHub, VS Code, Linux Terminal, curl, Postman</td></tr>
-<tr><td>Platforms</td><td>HackerRank, LeetCode, freeCodeCamp</td></tr>
+    <tr>
+        <th>Category</th>
+        <th>Technologies</th>
+    </tr>
+
+    <tr>
+        <td>Programming</td>
+        <td>Python (Beginner)</td>
+    </tr>
+
+    <tr>
+        <td>Operating System</td>
+        <td>Linux, Bash / Shell Scripting</td>
+    </tr>
+
+    <tr>
+        <td>Development Tools</td>
+        <td>Git, GitHub, VS Code</td>
+    </tr>
+
+    <tr>
+        <td>Web Development</td>
+        <td>HTML, CSS</td>
+    </tr>
+
+    <tr>
+        <td>Documentation</td>
+        <td>Markdown</td>
+    </tr>
 </table>
 
+<h2>Certifications &amp; Progress</h2>
+
+<div class="card">
+    <h3>Learning Progress</h3>
+
+    <p>
+        <strong>Python:</strong> Currently learning
+    </p>
+
+    <p>
+        <strong>HackerRank:</strong> Learning and practice in progress
+    </p>
+
+    <p>
+        <strong>LeetCode:</strong> Coding practice to be updated
+    </p>
+
+    <p>
+        <strong>freeCodeCamp:</strong> Web development learning in progress
+    </p>
+
+    <p>
+        Certifications will be added after successful completion.
+    </p>
+</div>
+
 <h2>Learning Roadmap</h2>
-<p>I have a 6-semester roadmap covering core CS, databases, web development and my specialisation track.</p>
-<a href="https://github.com/akhlaqkhan8705/developer-portfolio/blob/main/LEARNING_ROADMAP.md">View Roadmap &rarr;</a>
+
+<p>
+    I am following a structured six-semester learning roadmap
+    to develop my knowledge of computer science, programming,
+    databases, web development, Artificial Intelligence
+    and Data Science.
+</p>
+
+<p>
+    <a href="https://github.com/akhlaqkhan8705/developer-portfolio/blob/main/LEARNING_ROADMAP.md"
+       target="_blank">
+        View My Learning Roadmap
+    </a>
+</p>
+
+<h2>Progress Tracker</h2>
+
+<p>
+    I maintain a progress tracker to record my learning
+    activities, coding practice and development goals.
+</p>
+
+<p>
+    <a href="https://github.com/akhlaqkhan8705/developer-portfolio/blob/main/PROGRESS.md"
+       target="_blank">
+        View My Progress Tracker
+    </a>
+</p>
 
 <h2>Contact</h2>
-<p>GitHub: <a href="https://github.com/akhlaqkhan8705">github.com/akhlaqkhan8705</a></p>
-<p>Email: <a href="mailto:2601201061@gmail.com">2601201061@gmail.com</a></p>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">linkedin.com/in/YOUR-LINKEDIN-ID</a></p>
 
-<footer>Built with HTML &amp; CSS &bull; Hosted on GitHub Pages &bull; November 2026</footer>
+<p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/akhlaqkhan8705" target="_blank">
+        github.com/akhlaqkhan8705
+    </a>
+</p>
+
+<p>
+    <strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/mohd-saad-79287b451"
+       target="_blank">
+        My LinkedIn Profile
+    </a>
+</p>
+
+<p>
+    <strong>Email:</strong>
+    <a href="mailto:abushad7242066417@gmail.com">
+        abushad7242066417@gmail.com
+    </a>
+</p>
+
+<footer>
+    Built with HTML &amp; CSS | Hosted on GitHub Pages
+    <br>
+    Mohd Saad | Updated November 2026
+</footer>
+
 </body>
 </html>
