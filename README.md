@@ -1,9 +1,9 @@
 Mohd Saad — Developer Portfolio
 
-> BCA (AI & DS ) | K.R. Mangalam University, Gurugram | Batch 2026-29
-
+BCA (AI & DS) Student | Python | Linux | Git | Aspiring Full Stack Developer | KR Mangalam University
 ---
-
+- LinkedIn: https://www.linkedin.com/in/mohd-saad-79287b451
+- Email: abushad7242066417@gmail.com
 ## Repository Index
 
 | Repository | Description | Tech Stack | Status |
